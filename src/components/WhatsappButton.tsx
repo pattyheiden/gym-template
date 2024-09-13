@@ -22,7 +22,7 @@ export function WhatsappButton() {
                                 statusMessage='Responde dentro de 1 hora'
                                 placeholder='Escrever mensagem'
                                 avatar='/whatsapp-logo.png'
-                                darkMode                                
+                                darkMode
                             />
                         </div></>
                 )

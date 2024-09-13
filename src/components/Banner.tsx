@@ -12,11 +12,6 @@ export function Banner() {
             <div className="flex relative w-full bg-black lg:hidden">
                 <Image src={bannerMobile} alt="" className="w-full h-auto" />
             </div>
-            
-            {/* <div className="lg:hidden flex relative w-full">
-                <img src={bannerMobile.src} alt="" className="w-full h-auto" />
-                <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 to-transparent opacity-100 rounded-lg"></div>
-            </div> */}
         </>
     )
 }

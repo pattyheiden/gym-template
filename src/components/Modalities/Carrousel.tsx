@@ -88,7 +88,7 @@ export class Carrousel extends Component {
                         <RiArrowRightWideLine className="text-primary h-6 w-6" />
                     </ButtonNext>
                 </div>
-                
+
             </CarouselProvider>
         )
     }

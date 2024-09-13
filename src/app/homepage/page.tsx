@@ -21,7 +21,6 @@ import backgroundAulas from "@/assets/background-aulas.svg"
 import { Banner } from "@/components/Banner";
 import { Carrousel } from "@/components/Modalities/Carrousel";
 import { PiDotsSix } from "react-icons/pi";
-// import { Banner } from "./Banner";
 
 export default function Homepage() {
     return (
@@ -85,17 +84,6 @@ export default function Homepage() {
                                 <PiDotsSix className="h-6 w-6" />
                             </div>
                         </div>
-
-                        {/* <div className="flex relative h-full">
-                            <Image
-                                src={aulas}
-                                alt=""
-                                width={0}
-                                height={0}
-                                objectFit="cover"
-                                className="h-auto w-auto"
-                            />
-                        </div> */}
                     </div>
                 </div>
             </div>
@@ -118,18 +106,19 @@ export default function Homepage() {
                             Além de receber o treinamento diretamente no app, você poderá avaliar cada sessão, assim como a estrutura e os profissionais, garantindo um feedback contínuo. Esse diferencial permite que ofereçamos sempre o melhor para nossos clientes, proporcionando uma experiência única e eficaz.
                         </span>
                     </div>
-                    {/* <div className="flex xl:order-2 lg:order-2 order-1 ">
-                        <Image src={treino} alt="treino" width={600} height={600} className="w-full h-auto max-h-[600px]" />
-                    </div> */}
                 </div>
             </div>
+
             {/* plans */}
+
             <div className="xl:flex mb-14 hidden">
                 <Image src={planos} alt="planos" width={600} height={600} className="w-full h-auto max-h-[600px] object-cover" />
             </div>
+
             <div className="lg:flex xl:hidden md:flex mb-14 hidden">
                 <Image src={planosTablet} alt="planos" width={600} height={600} className="w-full h-auto max-h-[600px] object-cover" />
             </div>
+
             <div className="lg:hidden md:hidden mb-14">
                 <Image src={planosMobile} alt="planos-mobile" width={600} height={600} className="w-full h-auto max-h-[600px] object-cover" />
             </div>
@@ -147,18 +136,19 @@ export default function Homepage() {
                         E MOTIVADO
                     </span>
                 </div>
+
                 <div className="lg:flex-row flex flex-1 flex-col gap-3 my-14">
                     <div className="flex flex-col">
                         <Image src={pilates} alt="pilates" width={0} height={500} className="flex h-[500px] w-auto rounded-2xl object-cover" />
                         <h2 className="lg:text-start font-bold italic text-2xl text-center mt-2">STUDIO PILATES</h2>
                         <span className="lg:pl-0 lg:max-w-[800px] lg:mx-0 lg:text-start flex text-base font-medium mt-1 w-auto text-center">Aulas que te ajudar no alongamento, reabilitação e condicionamento físico, ideal para aquele que necessita de cuidados especiais.</span>
                     </div>
+
                     <div className="flex flex-col ">
                         <Image src={massagem} alt="massagem" width={0} height={500} className="flex h-[500px] w-auto rounded-2xl object-cover" />
                         <h2 className="lg:text-start font-bold italic text-2xl text-center mt-2">MASSOTERAPIA</h2>
                         <span className="lg:pl-0 lg:max-w-[800px] lg:mx-0 lg:text-start flex text-base font-medium mt-1 w-auto text-center">A UX MULTIFIT trás até você um espaço para relaxar sua musculatura e tratar suas dores, com massoterapeutas com técnicas e métodos avançados irão deixar você totalmente relaxado.</span>
                     </div>
-
                 </div>
             </div>
 
@@ -174,9 +164,11 @@ export default function Homepage() {
                             “SER ÚNICO”. Único nas suas necessidades, único nas suas preferências, único nas suas atividades, único no biotipo, seu corpo,
                             sua fisiologia. Trataremos cada indivíduo como um SER ÚNICO no “UNIVERSO”.
                         </span>
+
                     </div>
                     <Carrousel />
                 </div>
+
             </div>
             {/* aulas */}
 
@@ -191,6 +183,7 @@ export default function Homepage() {
                         className="h-full w-full z-0 object-cover"
                     />
                 </div>
+
                 <div className="relative container z-10 flex mx-auto items-center justify-center h-full px-4">
                     <div className="flex container mx-auto justify-center items-center xl:space-x-64 lg:space-x-20 xl:px-4">
                         <div>
@@ -206,27 +199,10 @@ export default function Homepage() {
                                 <p className="text-xl font-bold">VER AULAS</p>
                             </div>
                         </div>
-
-                        {/* <div className="flex relative h-full">
-                            <Image
-                                src={aulas}
-                                alt=""
-                                width={0}
-                                height={0}
-                                objectFit="cover"
-                                className="h-auto w-auto"
-                            />
-                        </div> */}
                     </div>
                 </div>
             </div>
 
-            {/* <div className="lg:flex hidden">
-                <Image src={aulas} alt="treino" width={600} height={600} className="w-full h-auto max-h-[600px] object-cover" />
-            </div> */}
-            {/* <div className="lg:hidden">
-                <Image src={aulasMobile} alt="treino" width={600} height={600} className="w-full h-auto max-h-[600px] object-cover" />
-            </div> */}
             <div className="flex xl:flex-row lg:flex-row flex-col container mx-auto px-4 pt-16">
                 <div className="lg:flex-row flex flex-1 flex-col mt-14 mb-14 xl:gap-0 lg:gap-0 md:gap-0 gap-4">
                     <div className="flex md:flex-1 flex-col mx-4">
