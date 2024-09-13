@@ -17,7 +17,7 @@ export function WhatsappButton() {
                         <div className='absolute'>
                             <FloatingWhatsApp
                                 accountName='UX MULTIFIT'
-                                phoneNumber='5547984486434'
+                                phoneNumber='5547996718719'
                                 chatMessage='Olá caro cliente, como podemos ajudá-lo?'
                                 statusMessage='Responde dentro de 1 hora'
                                 placeholder='Escrever mensagem'
